@@ -31,7 +31,7 @@ const MobileMenu = () => {
             </Button>
           </Link>
         </div>
-        <Link href="/" className="w-full">
+        <Link href="https://github.com/youseftrek/FlexFile" className="w-full">
           <Button className="flex gap-2 font-semibold w-full">
             <FaGithub size={20} />
             Github Repo

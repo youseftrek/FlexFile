@@ -47,7 +47,9 @@ const Nav = () => {
         </Link>
       </div>
       <div className="flex gap-2">
-        <Link href="/" className="hidden md:block">
+        <Link
+          href="https://github.com/youseftrek/FlexFile"
+          className="hidden md:block">
           <Button className="flex gap-2 font-semibold">
             <FaGithub size={20} />
             Github Repo
