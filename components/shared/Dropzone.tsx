@@ -274,7 +274,7 @@ export default function Dropzone() {
               </Badge>
             ) : (
               <div className="text-md flex items-center gap-4">
-                <span>Convert to</span>
+                <span>To</span>
                 <Select
                   onValueChange={(value: string) => {
                     if (extensions.audio.includes(value)) {
