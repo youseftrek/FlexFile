@@ -235,7 +235,7 @@ export default function Dropzone() {
         {actions.map((action: Action, i: any) => (
           <div
             key={i}
-            className="bg-secondary w-full py-4 space-y-2 lg:py-0 relative rounded-xl border h-fit lg:h-20 px-4 lg:px-10 flex flex-wrap lg:flex-nowrap items-center justify-between">
+            className="bg-secondary w-full py-4 space-y-2 lg:py-0 relative rounded-xl border h-fit lg:h-20 px-4 lg:px-10 flex flex-wrap flex-grow-0 flex-shrink-0 lg:flex-nowrap items-center justify-between overflow-hidden">
             {!is_loaded && (
               <Skeleton className="h-full w-full -ml-10 cursor-progress absolute rounded-xl" />
             )}
