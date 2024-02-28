@@ -10,10 +10,10 @@ export default function Home() {
           <span className="text-primary">FlexFile.</span>
         </h1>
         <p className="text-center opacity-50 max-w-[500px] mb-6 p-2">
-          Elevate your productivity with our intuitive online file converter.
-          Seamlessly convert images, videos, and more between different formats
-          with just a few clicks. Say goodbye to compatibility issues and
-          embrace the convenience of our versatile file conversion tool.
+          Welcome to FlexFile – the ultimate multimedia conversion powerhouse that revolutionizes
+          the way you transform images, audio files, and videos. With FlexFile, unleash your
+          creativity with unprecedented freedom, all at absolutely no cost! Say goodbye to
+          limitations and hello to limitless creative possibilities.
         </p>
         <div className="w-screen flex justify-center">
           <Dropzone />
