@@ -1,5 +1,5 @@
 import React from "react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { IoMenu } from "react-icons/io5";
 import { Button } from "../ui/button";
 import Link from "next/link";
