@@ -16,19 +16,25 @@ const MobileMenu = () => {
       <SheetContent className="flex flex-col justify-between">
         <div className="mt-8 w-full items-center flex flex-col gap-2">
           <Link href="/" className="w-full">
-            <Button variant="secondary" className="font-bold w-full">
-              Home
-            </Button>
+            <SheetClose className="w-full">
+              <Button variant="secondary" className="font-bold w-full">
+                Home
+              </Button>
+            </SheetClose>
           </Link>
           <Link href="/about" className="w-full">
-            <Button variant="secondary" className="font-bold w-full">
-              About
-            </Button>
+            <SheetClose className="w-full">
+              <Button variant="secondary" className="font-bold w-full">
+                About
+              </Button>
+            </SheetClose>
           </Link>
           <Link href="/privacy-policy" className="w-full">
-            <Button variant="secondary" className="font-bold w-full">
-              Privacy Policy
-            </Button>
+            <SheetClose className="w-full">
+              <Button variant="secondary" className="font-bold w-full">
+                Privacy Policy
+              </Button>
+            </SheetClose>
           </Link>
         </div>
         <Link href="https://github.com/youseftrek/FlexFile" className="w-full">
